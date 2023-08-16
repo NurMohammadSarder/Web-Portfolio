@@ -5,36 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Smith</title>
     <link rel="stylesheet" href="styles/style.css">
-    <style>
-        #header{
-            background-image: url(images/header-bg.png);
-            width: 100%;
-            position: relative;
-        }
-        #biography{
-            background-image: url(images/biography-bg.png);
-            width: 100%;
-            position: relative;
-        }
-        #latest-work{
-            background-image: url(images/latest-work-bg.png);
-            width: 100%;
-            position: relative;
-        }
-        #footer{
-            background-image: url(images/footer-bg.png);
-            width: 100%;
-            position: relative;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="header">
         <div class="header-text">
-            <h1>Hello I'm</h1>
-            <h1>Jack Smith</h1>
-            <p>You might saw me jumping, climbing buildings, and stopping trains.</p>
-            <p>But nobody pays me a dime for that work</p>
+            <h3>Hello I'm</h3>
+            <h2>Jack Smith</h2><br>
+            <p>You might saw me jumping, climbing buildings, and stopping trains.But nobody pays me a dime for that work</p>
             <button class="button">HIRE ME</button>           
         </div>
         <div class="header-img">
@@ -52,25 +32,31 @@
         </div>
     </section>
     <section id="latest-work">
-        <div >
-            <h1 class="text-center">My Latest Work</h1>
-            <img class="latest-work" src="images/latest-work/work-1.png" alt="Work-1">
-            <img class="latest-work" src="images/latest-work/work-2.jpg" alt="Work-2">
-            <img class="latest-work" src="images/latest-work/work-3.jpg" alt="work-3">
+        <h1>My Latest Work</h1>
+        <div class="latest-work">
+            <img src="images/latest-work/work-1.png" alt="">
+        </div>
+        <div class="latest-work">
+            <img src="images/latest-work/work-2.jpg" alt="">
+        </div>
+        <div class="latest-work">
+            <img src="images/latest-work/work-3.jpg" alt="">
         </div>
     </section>
-    <section id="footer">
-        <div >
-            <h1 class="text-center">What Client are Say</h1>
-            <h5 class="text-center">Bruce Moccy</h5>
-            <h6 class="text-center">Founder & CEO Alies</h6>
-            <p class="text-center">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"</p>
-            <div class="email">
-                <p class="text-center">Leave me a message in the</p>
-                <p class="text-center">programming.hero1@gmail.com</p>
-            </div>
-            <p class="text-center">Programming Hero Initiative. &copy 2020 All rights Reserved.</p>
+    <section id="client-review">
+        <h1 >What Client are Say</h1>
+        <h3 class="client-name">Bruce Moccy</h3>
+        <p >Founder & CEO Alies</p>
+        <div  class="client-review-text">
+            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"</p>
         </div>
+        <div class="client-review-msg">
+            <p class="text-center">Leave me a message in the</p>
+            <h2 class="text-center">programming.hero1@gmail.com</h2>
+        </div> 
     </section> 
+    <footer>
+        <p class="text-center">Programming Hero Initiative. &copy 2020 All rights Reserved.</p>
+    </footer>
 </body>
-</html>
+</html> 
