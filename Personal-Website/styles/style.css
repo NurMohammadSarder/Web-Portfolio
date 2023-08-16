@@ -1,28 +1,27 @@
 
 .header-text{
-    position: relative;
-    height: 50%;
     width: 50%;
 }
 .header-img{
-    position: relative;
-    position: 500px;
-    height: 50%;
     width: 50%;
 }
 .biography-img{
-    float: left;
-    height: 50%;
     width: 50%;
     background-color: red;
 }
 .biography-text{
-    float: right;
-    position: relative;
-    height: 50%;
     width: 50%;
     background-color: aquamarine;
 }
 .text-center{
     text-align: center;
+}
+.peter{
+    width: 33.3%;
+}
+.biography{
+    width: 33.3%;
+}
+.latest-work{
+    width: 33.3%;
 }
