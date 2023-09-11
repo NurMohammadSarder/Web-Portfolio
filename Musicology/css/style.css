@@ -45,7 +45,7 @@ img {
 }
 .sec-head p {
     font-size: 29.72px;
-    line-height: 29.72px;
+    line-height: 1.2;
     font-weight: 300;
     padding: 60px 130px 0 130px;
 }
@@ -100,7 +100,7 @@ img {
     font-size: 29.72px;
     padding-top: 37px;
     padding-bottom: 45px;
-    line-height: 29.72px;
+    line-height: 1.1;
     padding-right: 500px;
 }
 .banner a {
@@ -121,9 +121,17 @@ img {
 #tour {
     background: var(--orange);
 }
+
+.corner {
+    position: absolute;
+    top: -44%;
+    left: -12%;
+    z-index: 1;
+}
 .tour {
     padding-top: 105px;
     padding-bottom: 100px;
+    position: relative;
 }
 .tour .tour-parts {
     padding-top: 84px;
@@ -144,7 +152,7 @@ img {
 }
 .tour .tour-parts .tour-part .tour-text p {
     font-size: 22.17px;
-    line-height: 22.17px;
+    line-height: 1.1;
     padding-bottom: 32px;
 }
 /* tour ends  */
@@ -188,7 +196,7 @@ img {
 .pricing .pricing-parts .pricing-part p {
     padding-top: 37px;
     font-size: 22.17px;
-    line-height: 22.17px;
+    line-height: 1.1;
     font-weight: 300;
     padding-bottom: 30px;
 }
@@ -229,7 +237,7 @@ img {
 }
 #dance .dance-parts .dance-part .dance-text p {
     font-size: 29.72px;
-    line-height: 29.72px;
+    line-height: 1.1;
     padding-bottom: 74px;
 
 }
@@ -289,7 +297,7 @@ img {
 .feedback p {
 
     font-size: 50px;
-    line-height: 50px;
+    line-height: 1.2;
     font-family: var(--font3);
     padding: 0 140px;
 }
@@ -301,3 +309,95 @@ img {
     padding-bottom: 348px;
 }
 /* feedback ends  */
+
+/* subscribe starts  */
+#subscribe {
+    background: var(--orange);
+}
+.subscribe {
+    padding-top: 131px;
+    padding-bottom: 160px;
+}
+.subscribe .email {
+    padding-top: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .email input {
+    width: 548px;
+    height: 63px;
+    padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 25px;
+    color: rgb(161, 161, 161);
+    border: transparent;
+}
+.subscribe .email button {
+    height: 63px;
+    width: 222px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: var(--grey);
+    border: 1 solid var(--grey);
+    text-transform: uppercase;
+    font-family: var(--font1);
+    font-size: 25px;
+}
+/* subscribe ends  */
+
+/* contact starts  */
+#contact {
+    background: var(--grey);
+}
+.contact {
+    padding-top: 120px;
+    padding-bottom: 89px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact .contact-part h3{
+    padding-bottom: 40px;
+    font-size: 33.33px;
+    text-transform: uppercase;
+}
+.contact .contact-part ul li {
+    padding-bottom: 21px;
+    font-family: var(--font2);
+    font-size: 25px;
+}
+.contact .contact-part ul li:last-child {
+    padding-bottom: 0;
+}
+.contact .contact-musicology {
+    width: 617px;
+    padding-right: 100px;
+}
+.contact .contact-musicology p {
+    font-size: 25px;
+    line-height: 1.1;
+    padding-bottom: 40px;
+}
+.contact .contact-musicology .social-icons a {
+    padding-right: 16px;
+}
+.contact .contact-musicology .social-icons a i{
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    color: var(--grey);
+    text-align: center;
+    line-height: 50px;
+}
+
+/* contact ends  */
