@@ -401,3 +401,17 @@ img {
 }
 
 /* contact ends  */
+
+#credit {
+    background: var(--orange);
+}
+.credit {
+    text-align: center;
+    text-transform: uppercase;
+}
+.credit span {
+    color: var(--grey);
+    font-family: var(--font2);
+    font-size: 18px;
+    text-transform: none;
+}
