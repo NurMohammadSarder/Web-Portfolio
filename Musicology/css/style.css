@@ -86,6 +86,8 @@ img {
     background-position: center;
     background-size: cover;
     padding-top: 102px;
+    position: relative;
+    z-index: 5;
 }
 .banner {
     padding-top: 267px;
@@ -120,13 +122,15 @@ img {
 /* tour starts  */
 #tour {
     background: var(--orange);
+    position: relative;
+    z-index: 2;
 }
 
 .corner {
     position: absolute;
     top: -44%;
     left: -12%;
-    z-index: 1;
+    overflow: hidden;
 }
 .tour {
     padding-top: 105px;
@@ -158,12 +162,27 @@ img {
 /* tour ends  */
 
 /* pricing starts  */
+
 #pricing {
     background: var(--grey);
 }
 .pricing {
     padding-top: 108px;
     padding-bottom: 100px;
+    position: relative;
+}
+.corner1 {
+    position: absolute;
+    top: -44%;
+    left: -12%;
+    overflow: hidden;
+}
+.corner2 {
+    position: absolute;
+    bottom: -44%;
+    right: -12%;
+    overflow: hidden;
+    z-index: 3;
 }
 .pricing .pricing-parts {
     display: flex;
@@ -181,6 +200,8 @@ img {
     -o-border-radius: 5px;
     padding-bottom: 47px;
     padding: 0 30;
+    position: relative;
+    z-index: 4;
 }
 .pricing .pricing-parts .pricing-part i {
     font-size: 150px;
@@ -221,6 +242,8 @@ img {
     display: flex;
     justify-content: center;
     background-color: var(--orange);
+    position: relative;
+    z-index: 2;
 }
 #dance .dance-parts .dance-part .dance-text {
     display: flex;
@@ -228,10 +251,23 @@ img {
     align-items: start;
     flex-direction: column;
     padding: 0 85px;
+    position: relative;
+}
+.corner3 {
+    position: absolute;
+    bottom: -44%;
+    right: -12%;
+    overflow: hidden;
+}
+.corner4 {
+    position: absolute;
+    bottom: -44%;
+    left: -12%;
+    overflow: hidden;
 }
 #dance .dance-parts .dance-part .dance-text h3{
     font-size: 75px;
-    padding-top: 330px;
+    padding-top: 100px;
     padding-bottom: 60px;
     text-transform: uppercase;
 }
@@ -257,7 +293,9 @@ img {
 
 /* statistics starts */
 #statistics {
-    background-color: var(--grey)
+    background-color: var(--grey);
+    position: relative;
+    z-index: 2;
 }
 .statistics {
     padding-top: 207px;
@@ -285,10 +323,10 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-.feedback-overlay {
-    background: rgba(232, 99, 28, 0.30);
-    
+    background-color: var(--orange);
+    background-blend-mode: multiply;
+    position: relative;
+    z-index: 2;
 }
 .feedback {
     text-align: center;
@@ -313,6 +351,17 @@ img {
 /* subscribe starts  */
 #subscribe {
     background: var(--orange);
+    position: relative;
+}
+.sub1 {
+    position: absolute;
+    top: -58%;
+    left: 0;
+}
+.sub2 {
+    position: absolute;
+    top: -58%;
+    right: 0;
 }
 .subscribe {
     padding-top: 131px;
@@ -323,6 +372,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
 }
 .subscribe .email input {
     width: 548px;
