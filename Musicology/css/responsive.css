@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .container {
         max-width: 600px;
     }
@@ -191,4 +191,440 @@
     }
 
   }
-  
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .menu .menu-items ul {
+        width: 420px;
+    }
+    #banner {
+        background: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+    }
+    .banner {
+        padding-top: 60px;
+        padding-bottom: 0px;
+        max-height: 331px;
+    }
+    .banner h1 {
+        font-size: 80.63px;
+        font-weight: 400;
+    }
+    .banner p {
+        font-size: 16.72px;
+        padding-right: 125px;
+    }
+    .banner a {
+        padding: 10px 50px;
+        font-size: 25.17px;
+    }
+    .tour .tour-parts {
+        align-items: center;
+        flex-direction: column;
+    }
+    .tour .tour-parts .tour-part {
+        width: 372px;
+    }
+    img.corner {
+        width: 503px;
+    }
+    .corner {
+        position: absolute;
+        top: -146px;
+        left: 0px;
+        overflow: hidden;
+    }
+    .sec-head h2 {
+        z-index: 2;
+        position: relative;
+    }
+    .pricing .pricing-parts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing .pricing-parts .pricing-part {
+        max-width: 445px;
+    }    
+    img.corner1 {
+        width: 503px;
+    }
+    .corner1 {
+        position: absolute;
+        top: -146px;
+        left: 0px;
+        overflow: hidden;
+    }
+    img.corner2 {
+        width: 503px;
+    }
+    
+    .corner2 {
+        position: absolute;
+        bottom: -10%;
+        right: 0%;
+        overflow: hidden;
+        z-index: 2;
+    }
+    #dance .dance-parts .dance-part {
+        flex-direction: column;
+    }
+    #dance .dance-parts .dance-part .dance-text {
+        padding: 0 85px 75px 85px;
+    }
+    #dance .dance-parts .dance-part .dance-text h3 {
+        font-size: 64px;
+        padding-top: 65px;
+        padding-bottom: 35px;
+    }
+    #dance .dance-parts .dance-part .dance-text p {
+        font-size: 29.72px;
+        line-height: 1.1;
+        padding-bottom: 30px;
+    }
+    #dance .dance-parts .dance-part .dance-text a {
+        padding: 10px 50px;
+    }
+    img.corner3 {
+        width: 392px;
+    }
+    .corner3 {
+        bottom: -310px;
+        right: 0px;
+    }
+    img.corner4 {
+        width: 392px;
+    }
+    .corner4 {
+        bottom: -265px;
+        left: 0px;
+        z-index: -1;
+    }
+    .statistics {
+        padding-bottom: 207px;
+    }
+    .statistics .stats-parts {
+        padding-top: 80px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #feedback {
+        height: 750px;
+    }
+    .feedback {
+        padding-top: 265px;
+    }
+    .feedback p {
+        font-size: 33px;
+        padding: 0px 0px;
+    }
+    .sec-head p {
+        padding: 60px 40px 0 40px;
+    }
+    img.sub1 {
+        width: 571px;
+    }
+    .subscribe .email input {
+        max-width: 340px;
+    }
+    .subscribe .email button {
+        width: 180px;
+    }
+    
+    .sub1 {
+        position: absolute;
+        top: -3%;
+        left: -122px;
+    }
+    img.sub2 {
+        width: 571px;
+    }
+    
+    .sub2 {
+        position: absolute;
+        top: -3%;
+        right: -122px;
+    }
+    .contact .contact-part h3 {
+        font-size: 23.33px;
+    }
+    .contact .contact-musicology {
+        width: 285px;
+        padding-right: 0px;
+    }
+    .contact .contact-musicology p {
+        font-size: 17px;
+    }
+    .contact .contact-part ul li {
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .contact .contact-musicology .social-icons a {
+        padding-right: 10px;
+    }
+    .contact .contact-musicology .social-icons a i {
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .contact {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+  }
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .menu .menu-items ul {
+        width: 420px;
+    }
+    #banner {
+        background: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+    }
+    .banner {
+        padding-top: 60px;
+        padding-bottom: 0px;
+        max-height: 331px;
+    }
+    .banner h1 {
+        font-size: 80.63px;
+        font-weight: 400;
+    }
+    .banner p {
+        font-size: 16.72px;
+        padding-right: 125px;
+    }
+    .banner a {
+        padding: 10px 50px;
+        font-size: 25.17px;
+    }
+    .tour .tour-parts {
+        align-items: center;
+        flex-direction: column;
+    }
+    .tour .tour-parts .tour-part {
+        width: 372px;
+    }
+    img.corner {
+        width: 503px;
+    }
+    .corner {
+        position: absolute;
+        top: -146px;
+        left: 0px;
+        overflow: hidden;
+    }
+    .sec-head h2 {
+        z-index: 2;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+    .menu .menu-items ul {
+        width: 575px;
+    }
+    #banner {
+        background: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+    }
+    .banner {
+        padding-top: 145px;
+        padding-bottom: 0px;
+        max-height: 540px;
+    }
+    .banner h1 {
+        font-size: 100.63px;
+        font-weight: 400;
+    }
+    .banner p {
+        font-size: 28.72px;
+        padding-right: 125px;
+    }
+    .banner a {
+        padding: 15px 80px;
+        font-size: 30.17px;
+    }
+    .tour .tour-parts {
+        align-items: center;
+        flex-direction: column;
+    }
+    .tour .tour-parts .tour-part {
+        width: 372px;
+    }
+    img.corner {
+        width: 503px;
+    }
+    .corner {
+        position: absolute;
+        top: -146px;
+        left: 0px;
+        overflow: hidden;
+    }
+    .sec-head h2 {
+        z-index: 2;
+        position: relative;
+    }
+    .pricing .pricing-parts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing .pricing-parts .pricing-part {
+        max-width: 445px;
+    }    
+    img.corner1 {
+        width: 503px;
+    }
+    .corner1 {
+        position: absolute;
+        top: -146px;
+        left: 0px;
+        overflow: hidden;
+    }
+    img.corner2 {
+        width: 503px;
+    }
+    
+    .corner2 {
+        position: absolute;
+        bottom: -10%;
+        right: 0%;
+        overflow: hidden;
+        z-index: 2;
+    }
+    #dance .dance-parts .dance-part {
+        flex-direction: column;
+    }
+    #dance .dance-parts .dance-part .dance-text {
+        padding: 0 85px 75px 85px;
+    }
+    #dance .dance-parts .dance-part .dance-text h3 {
+        font-size: 64px;
+        padding-top: 65px;
+        padding-bottom: 35px;
+    }
+    #dance .dance-parts .dance-part .dance-text p {
+        font-size: 29.72px;
+        line-height: 1.1;
+        padding-bottom: 30px;
+    }
+    #dance .dance-parts .dance-part .dance-text a {
+        padding: 10px 50px;
+    }
+    img.corner3 {
+        width: 392px;
+    }
+    .corner3 {
+        bottom: -310px;
+        right: 0px;
+    }
+    img.corner4 {
+        width: 392px;
+    }
+    .corner4 {
+        bottom: -265px;
+        left: 0px;
+        z-index: -1;
+    }
+    .statistics {
+        padding-bottom: 207px;
+    }
+    .statistics .stats-parts {
+        padding-top: 80px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #feedback {
+        height: 750px;
+    }
+    .feedback {
+        padding-top: 265px;
+    }
+    .feedback p {
+        font-size: 33px;
+        padding: 0px 0px;
+    }
+    .sec-head p {
+        padding: 60px 40px 0 40px;
+    }
+    img.sub1 {
+        width: 571px;
+    }
+    .subscribe .email input {
+        max-width: 340px;
+    }
+    .subscribe .email button {
+        width: 180px;
+    }
+    
+    .sub1 {
+        position: absolute;
+        top: -3%;
+        left: -122px;
+    }
+    img.sub2 {
+        width: 571px;
+    }
+    
+    .sub2 {
+        position: absolute;
+        top: -3%;
+        right: -122px;
+    }
+    .contact .contact-part h3 {
+        font-size: 30.33px;
+    }
+    .contact .contact-musicology {
+        width: 455px;
+        padding-right: 0px;
+    }
+    .contact .contact-musicology p {
+        font-size: 20px;
+    }
+    .contact .contact-part ul li {
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .contact .contact-musicology .social-icons a {
+        padding-right: 10px;
+    }
+    .contact .contact-musicology .social-icons a i {
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .contact {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        min-width: 1200px;
+    }
+}
